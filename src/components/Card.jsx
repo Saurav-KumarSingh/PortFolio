@@ -14,9 +14,9 @@ import React from 'react'
         <p className="mt-2 text-sm text-gray-300">
           {props.data.Description}
         </p>
-        <button className="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
+        <a href={props.data.link} className="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
           View &rarr;
-        </button>
+        </a>
       </div>
     </div>
   )
