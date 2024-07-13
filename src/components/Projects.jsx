@@ -3,6 +3,10 @@ import React from 'react'
 
 const Projects = () => {
     let prData = [
+        {name: 'Blogged',
+            Description: 'A dynamic blogging website offering diverse topics, interactive user engagement, seamless navigation, and a platform for sharing insightful content.',
+            img: 'https://img.freepik.com/free-vector/editing-body-text-concept-illustration_114360-5791.jpg?t=st=1720882872~exp=1720886472~hmac=dcd99091ad292a1478d2c1aba987e98ada8efb5d8f131abcaa8b9d744d19ee7e&w=740',
+            link:'https://github.com/Saurav-KumarSingh/Blogged'},
         {
             name: 'Grievance Cell',
             Description: 'The College Grievance Cell addresses student complaints and issues, ensuring a fair and transparent resolution process to maintain campus harmony.',
